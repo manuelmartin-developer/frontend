@@ -1,0 +1,10 @@
+@mixin center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@mixin cards-center{
+    display: flex;
+    justify-content: center;
+}
