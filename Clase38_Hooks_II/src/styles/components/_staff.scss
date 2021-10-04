@@ -1,0 +1,16 @@
+.staff {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+    &-spinner {
+        margin-left: 20px;
+    }
+  
+    &-buttons > button {
+        margin-top: 50px;
+        margin-left: 10px;
+        background-color: #46bde8;
+    }
+}
